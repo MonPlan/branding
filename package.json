@@ -8,6 +8,6 @@
   },
   "scripts": {
     "catalog-start": "catalog start",
-    "catalog-build": "catalog build"
+    "catalog-build": "catalog build --public-url=/branding/"
   }
 }
