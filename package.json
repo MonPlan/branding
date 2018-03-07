@@ -1,0 +1,13 @@
+{
+  "name": "branding",
+  "description": "",
+  "dependencies": {
+    "catalog": "^3.0.0-rc.4",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "scripts": {
+    "catalog-start": "catalog start",
+    "catalog-build": "catalog build"
+  }
+}
