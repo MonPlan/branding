@@ -31,7 +31,7 @@ ReactDOM.render(
     title="monPlan Brand"
     pages={pages}
     theme={Theme}
-    logoSrc={"/logos/logo-black-hd.png"}
+    logoSrc={"/logos/logo_full_black.png"}
   />,
   document.getElementById("catalog")
 );

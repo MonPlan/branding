@@ -1,5 +1,5 @@
 ```image
-src: /logos/logo-black.png
+src: /logos/logo_full_black.png
 plain: true
 span: 2
 ```
