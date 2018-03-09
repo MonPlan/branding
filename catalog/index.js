@@ -10,6 +10,11 @@ const pages = [
     content: pageLoader(() => import("./WELCOME.md"))
   },
   {
+    path: "/general",
+    title: "General",
+    content: pageLoader(() => import("./GENERAL.md"))
+  },
+  {
     path: "/logos",
     title: "Logos",
     content: pageLoader(() => import("./LOGOS.md"))
