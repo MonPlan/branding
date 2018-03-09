@@ -8,11 +8,11 @@ MonPlan currently has 3 acceptable forms of capitalisation that are acceptable, 
 
 This is our primary form. It should be used in professional communication and materials.
 
-#### MonPlan
+#### monPlan
 
 This is the current form we use in our course planning application. This is because the unnatural capitalisation creates a 'casual, friendly' feeling, which better appeals to the primary audience: Monash University students.
 
-_In future this will be updated to our primary form, MonPlan_
+_In future this will be updated to our primary form, monPlan_
 
 #### MONPLAN
 
