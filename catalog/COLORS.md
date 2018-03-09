@@ -4,19 +4,19 @@
 
 ```color
 value: '#006CAB'
-name: 'Primary - monPlan Blue'
+name: 'Primary - MonPlan Blue'
 span: 3
 ```
 
 ```color
 value: '#565656'
-name: 'Secondary - monPlan Gray'
+name: 'Secondary - MonPlan Gray'
 span: 3
 ```
 
 ```color
 value: '#F44336'
-name: 'Error - monPlan Red'
+name: 'Error - MonPlan Red'
 span: 2
 ```
 
@@ -33,7 +33,7 @@ This should be the color selection you should use in most cases. It is based aro
 ```color-palette
 colors:
   - {name: "300", value: "#2682B8"}
-  - {name: "monPlan Blue (500)", value: "#006CAB"}
+  - {name: "MonPlan Blue (500)", value: "#006CAB"}
   - {name: "700", value: "#00599A"}
 ```
 
@@ -52,7 +52,7 @@ When components or elements should rank visibly lower in a heirarchy of importan
 ```color-palette
 colors:
   - {name: "300", value: "#898989"}
-  - {name: "monPlan Gray (500)", value: "#565656"}
+  - {name: "MonPlan Gray (500)", value: "#565656"}
   - {name: "700", value: "#454545"}
 ```
 
@@ -63,7 +63,7 @@ This is used when a component should be in an errored state or there are conflic
 ```color-palette
 colors:
   - {name: "300", value: "#E57373"}
-  - {name: "monPlan Error Red (500)", value: "#F44336"}
+  - {name: "MonPlan Error Red (500)", value: "#F44336"}
   - {name: "700", value: "#D32F2F"}
 ```
 

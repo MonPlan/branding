@@ -33,7 +33,7 @@ const pages = [
 
 ReactDOM.render(
   <Catalog
-    title="monPlan Brand"
+    title="MonPlan Brand"
     pages={pages}
     theme={Theme}
     logoSrc={"/logos/logo_full_black.png"}
