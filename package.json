@@ -1,6 +1,6 @@
 {
   "name": "branding",
-  "description": "",
+  "description": "branding guidelines for monplan",
   "dependencies": {
     "catalog": "^3.0.0-rc.4",
     "react": "^16.2.0",
