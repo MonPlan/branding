@@ -21,6 +21,12 @@ span: 2
 ```
 
 ```color
+value: '#4caf50'
+name: 'Success/Positive - MonPlan Green'
+span: 2
+```
+
+```color
 value: '#FFB300'
 name: 'Beta Yellow'
 span: 1
@@ -65,6 +71,17 @@ colors:
   - {name: "300", value: "#E57373"}
   - {name: "MonPlan Error Red (500)", value: "#F44336"}
   - {name: "700", value: "#D32F2F"}
+```
+
+## Success
+
+This is used for success, or typically for something positive (such as Course Completion)
+
+```color-palette
+colors:
+  - {name: "300", value: "#80e27e"}
+  - {name: "MonPlan Success (500)", value: "#4caf50"}
+  - {name: "700", value: "#087f23"}
 ```
 
 ## Other Colors
