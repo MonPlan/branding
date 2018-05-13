@@ -1,5 +1,5 @@
 ---
-name: 'General Enquiry :question:'
+name: General Enquiry ❓
 about: This issue is for general enquiries regarding our Brand Guidelines
 
 ---
