@@ -10,12 +10,22 @@ const pages = [
     content: pageLoader(() => import("./WELCOME.md"))
   },
   {
-    path: "/general",
-    title: "General",
-    content: pageLoader(() => import("./GENERAL.md"))
+    title: "Language",
+    pages: [
+      {
+        path: "/general",
+        title: "General",
+        content: pageLoader(() => import("./GENERAL.md"))
+      },
+      {
+        path: "/faculty-codes",
+        title: "Faculty Codes",
+        content: pageLoader(() => import("./FacultyCodes.md"))
+      }
+    ]
   },
   {
-    title: 'Styles',
+    title: "Styles",
     pages: [
       {
         path: "/logos",
@@ -32,16 +42,15 @@ const pages = [
         title: "Typography",
         content: pageLoader(() => import("./FONTS.md"))
       }
-
     ]
   },
   {
-    title: 'Components',
+    title: "Components",
     pages: [
       {
         path: "/components/UnitCard",
         title: "UnitCard",
-        content: pageLoader(() => import("./components/UnitCard.md"))
+        content: pageLoader(() => import("./components/UnitCard.js"))
       }
     ]
   }
