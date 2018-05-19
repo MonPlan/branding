@@ -7,7 +7,7 @@
     "react-dom": "^16.2.0"
   },
   "scripts": {
-    "catalog-start": "catalog start",
-    "catalog-build": "catalog build --public-url=/branding/"
+    "start": "catalog start",
+    "build": "catalog build --public-url=/branding/"
   }
 }
