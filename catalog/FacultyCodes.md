@@ -1,6 +1,4 @@
-Each Faculty also has it's unique code which is used internally to the system. 
-
-Each faculty has it's own 3 letter code and should be used in conjunction with each [faculty's color](./#/colors?a=faculty-colors).
+Each faculty within Monash University has its own unique code for internal use. At MonPlan, we use 3 letter codes to identify a faculty, and these should be used in conjuction with each [faculty's color](./#/colors?a=faculty-colors).
 
 ```table
 span: 5
