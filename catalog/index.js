@@ -10,6 +10,11 @@ const pages = [
     content: pageLoader(() => import("./WELCOME.md"))
   },
   {
+    path: "/general",
+    title: "General",
+    content: pageLoader(() => import("./GENERAL.md"))
+  },
+  {
     path: "/logos",
     title: "Logos",
     content: pageLoader(() => import("./LOGOS.md"))
@@ -28,7 +33,7 @@ const pages = [
 
 ReactDOM.render(
   <Catalog
-    title="monPlan Brand"
+    title="MonPlan Brand"
     pages={pages}
     theme={Theme}
     logoSrc={"/logos/logo_full_black.png"}
