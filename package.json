@@ -2,12 +2,17 @@
   "name": "branding",
   "description": "branding guidelines for monplan",
   "dependencies": {
+    "@material-ui/icons": "^1.0.0",
     "catalog": "^3.0.0-rc.4",
+    "material-ui": "^0.20.1",
     "react": "^16.2.0",
     "react-dom": "^16.2.0"
   },
   "scripts": {
-    "catalog-start": "catalog start",
-    "catalog-build": "catalog build --public-url=/branding/"
+    "start": "catalog start",
+    "build": "catalog build --public-url=/branding/"
+  },
+  "devDependencies": {
+    "prettier": "^1.12.1"
   }
 }

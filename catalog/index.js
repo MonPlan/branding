@@ -10,24 +10,49 @@ const pages = [
     content: pageLoader(() => import("./WELCOME.md"))
   },
   {
-    path: "/general",
-    title: "General",
-    content: pageLoader(() => import("./GENERAL.md"))
+    title: "Language",
+    pages: [
+      {
+        path: "/general",
+        title: "General",
+        content: pageLoader(() => import("./GENERAL.md"))
+      },
+      {
+        path: "/faculty-codes",
+        title: "Faculty Codes",
+        content: pageLoader(() => import("./FacultyCodes.md"))
+      }
+    ]
   },
   {
-    path: "/logos",
-    title: "Logos",
-    content: pageLoader(() => import("./LOGOS.md"))
+    title: "Styles",
+    pages: [
+      {
+        path: "/logos",
+        title: "Logos",
+        content: pageLoader(() => import("./LOGOS.md"))
+      },
+      {
+        path: "/colors",
+        title: "Colors",
+        content: pageLoader(() => import("./COLORS.md"))
+      },
+      {
+        path: "/typography",
+        title: "Typography",
+        content: pageLoader(() => import("./FONTS.md"))
+      }
+    ]
   },
   {
-    path: "/colors",
-    title: "Colors",
-    content: pageLoader(() => import("./COLORS.md"))
-  },
-  {
-    path: "/typography",
-    title: "Typography",
-    content: pageLoader(() => import("./FONTS.md"))
+    title: "Components",
+    pages: [
+      {
+        path: "/components/UnitCard",
+        title: "UnitCard",
+        content: pageLoader(() => import("./components/UnitCard.js"))
+      }
+    ]
   }
 ];
 
