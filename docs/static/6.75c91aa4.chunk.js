@@ -1,0 +1,2 @@
+webpackJsonp([6],{1153:function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var a=n(0),l=n.n(a),r=n(449),u=n(451),c=n(452);n.n(c);t.default=function(){return l.a.createElement(r.Page,null,l.a.createElement(u.b,null,l.a.createElement(u.a,null,l.a.createElement(c.CardText,null,"Test"))))}}});
+//# sourceMappingURL=6.75c91aa4.chunk.js.map
