@@ -26,7 +26,7 @@ const WelcomeV2Page = ({ classes }) => (
         variant="outlined"
         color="primary"
         className={classes.button}
-        href="/#/general"
+        href="/branding/#/general"
       >
         <Icon className={classes.leftIcon}>language</Icon>
         Language
@@ -35,7 +35,7 @@ const WelcomeV2Page = ({ classes }) => (
         variant="outlined"
         color="primary"
         className={classes.button}
-        href="/#/logos"
+        href="/branding/#/logos"
       >
         <Icon className={classes.leftIcon}>style</Icon>
         Styles
@@ -44,7 +44,7 @@ const WelcomeV2Page = ({ classes }) => (
         variant="outlined"
         color="primary"
         className={classes.button}
-        href="/#/components/UnitCard"
+        href="/branding/#/components/UnitCard"
       >
         <Icon className={classes.leftIcon}>extension</Icon>
         Components
