@@ -1,5 +1,20 @@
 # General
 
+## Tagline
+
+The tagline represents what MonPlan is and shows the exciting factor of the tool being be built by the students.
+
+Some pre-approved taglines include:
+
+- _The Monash Course Planner for students, by students_
+
+The 'for students, by students' is a key here as it helps drive the Student Innovation Program being developed. 
+
+While 'The Monash Course Planner' helps promote us as **the** course planning tool for Monash Students. 
+
+- _The Monash Course Planning Tool for students, by students_
+
+
 ## Tone of Voice
 
 Please remember when developing frontend interfaces for MonPlan that you are also by extension representing Monash University.

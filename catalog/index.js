@@ -2,12 +2,13 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { Catalog, pageLoader } from "catalog";
 import Theme from "./theme";
-
+import { MuiThemeProvider } from "material-ui";
+import MuiTheme from "./config/theme";
 const pages = [
   {
     path: "/",
     title: "Welcome",
-    content: pageLoader(() => import("./WELCOME.md"))
+    content: pageLoader(() => import("./WELCOME.js"))
   },
   {
     title: "Language",
@@ -57,11 +58,13 @@ const pages = [
 ];
 
 ReactDOM.render(
-  <Catalog
-    title="MonPlan Brand"
-    pages={pages}
-    theme={Theme}
-    logoSrc={"/logos/logo_full_black.png"}
-  />,
+  <MuiThemeProvider theme={MuiTheme}>
+    <Catalog
+      title="MonPlan Brand"
+      pages={pages}
+      theme={Theme}
+      logoSrc={"/logos/logo_full_black.png"}
+    />
+  </MuiThemeProvider>,
   document.getElementById("catalog")
 );
